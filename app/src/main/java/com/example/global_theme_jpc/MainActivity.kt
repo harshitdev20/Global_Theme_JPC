@@ -203,8 +203,9 @@ fun MainScreen(
         // }
 
 
-            StyledButton(text = "My Button1",colors = resolveButtonColors(isBtn1Selected), onClick = { isBtn1Selected = !isBtn1Selected })
-            StyledButton(text = "My Button2",colors = resolveButtonColors(isBtn2Selected), onClick = { isBtn2Selected = !isBtn2Selected })
+
+        StyledButton(text = "My Button1",colors = resolveButtonColors(isBtn1Selected), onClick = { isBtn1Selected = !isBtn1Selected })
+        StyledButton(text = "My Button2",colors = resolveButtonColors(isBtn2Selected), onClick = { isBtn2Selected = !isBtn2Selected })
 
             Button(modifier = defaultBtn,onClick = onToggleTheme) { Text("Switch Themes") }
 

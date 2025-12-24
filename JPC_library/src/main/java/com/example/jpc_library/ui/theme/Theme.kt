@@ -1,4 +1,4 @@
-/*package com.example.global_theme_jpc.ui.theme
+package com.example.global_theme_jpc.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -10,6 +10,7 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import com.example.jpc_library.ui.theme.*
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -54,4 +55,4 @@ fun Global_Theme_JPCTheme(
       typography = Typography,
       content = content
     )
-}*/
+}
